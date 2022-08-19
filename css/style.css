@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+.marge {
+    height: 900px;
+    margin: 0;
+    background-color: yellow;
+    background-image: url(../images/simpsons_PNG91.png);
+    background-size: 750px;
+    background-repeat: no-repeat;
+    padding: 50px;
+    background-position: center;
+}
+.homero {
+    height: 900px;
+    margin: 0;
+    background-color: green;
+    background-image: url(../images/homer.png);
+    background-size: 750px;
+    background-repeat: no-repeat;
+    padding: 50px;
+    background-position: center;
+}
+h1, h2, p {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+}
